@@ -30,11 +30,11 @@ if(toggle==false){
   background(0,115,115);
 
   push();
-      textSize(20);
+      textSize(18);
       textAlign(CENTER);
       textFont('sans-serif');
       fill(255);
-      text('Move the cursor to change settings, then CLICK to generate your artwork', width/2, height/2);
+      text('Move the cursor on the screen to change settings, then click to generate your artwork', width/2, height/2);
     pop();
 
   push();
